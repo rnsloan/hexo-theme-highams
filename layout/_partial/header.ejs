@@ -1,0 +1,22 @@
+<header class="header-global">
+  <div class="header-global__titles" role="banner">
+    <a href="<%- url_for() %>"><%= config.title %></a>
+    <% if (theme.subtitle){ %>
+    <a href="<%- url_for() %>"><%= theme.subtitle %></a>
+    <% } %>
+  </div>
+
+  <nav class="header-global__nav">
+    <% for (var i in theme.menu){ %>
+    <a href="<%- url_for(theme.menu[i]) %>"><%= i %></a>
+    <% } %>
+    <% if (theme.rss){ %>
+    <a href="<%- theme.rss %>"><%= __('rss_feed') %></a>
+    <% } %>
+    <a href="#" class="js-search"><%= __('search') %></a>
+  </nav>
+
+  <div role="search">
+    <%- search_form({button: 'Search'}) %>
+  </div>
+</header>

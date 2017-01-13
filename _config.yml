@@ -1,0 +1,26 @@
+# Header
+menu:
+  Archives: /archives
+rss: /atom.xml
+
+# Content
+excerpt_link: Read More
+
+# manifest
+# https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+manifest:
+
+# theme-color (hex code)
+# https://developers.google.com/web/updates/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
+theme_color:
+
+# favicon path
+favicon:
+
+# Miscellaneous
+google_analytics:
+gauges_analytics:
+twitter:
+google_plus:
+fb_admins:
+fb_app_id:

@@ -1,0 +1,43 @@
+@import '../vendor/_normalize.scss';
+@import "_variables";
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0 $spacing-small $spacing-medium;
+  padding: 0;
+  background: $color-white-2;
+}
+
+article {
+  margin-bottom: $spacing-large;
+
+  @include mq($from: tablet) {
+    background: $color-white;
+    padding: $spacing-small $spacing-medium;
+  }
+}
+
+[role=main] {
+  margin: 0 auto;
+  max-width: #{map-get($mq-breakpoints, desktop)};
+}
+
+img {
+  max-width: 100%;
+  margin: $spacing-small 0;
+}
+
+table {
+  width: 100%;
+  display: block;
+  overflow: auto;
+}
+
+@import "_typography";
+@import "_components";
