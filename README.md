@@ -2,6 +2,8 @@
 
 A basic theme for [Hexo].
 
+![higham-theme-preview](https://raw.githubusercontent.com/rnsloan/hexo-theme-highams/gh-pages/screenshot.png)
+
 ## Installation
 
 ### Install
