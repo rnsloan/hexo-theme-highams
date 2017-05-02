@@ -53,5 +53,9 @@
     })
   </script>
 
+  <% if (theme.entry_js_file){ %>
+    <script src="<%= theme.entry_js_file %>" async></script>
+  <% } %>
+
   <%- css('css/style') %>
 </head>

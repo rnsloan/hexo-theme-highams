@@ -10,6 +10,9 @@ excerpt_link: Read More
 # https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
 manifest:
 
+# js file loaded asynchronous in the <head>
+entry_js_file:
+
 # theme-color (hex code)
 # https://developers.google.com/web/updates/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
 theme_color:
