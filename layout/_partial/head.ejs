@@ -39,6 +39,8 @@
   <% } %>
 
   <script>
+    <%- partial('google-analytics') %>
+    <%- partial('gauges-analytics') %>
     document.getElementsByTagName('html')[0].className += ' has-js';
 
     function toggleSearch() {

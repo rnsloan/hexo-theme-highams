@@ -10,9 +10,13 @@
     <% for (var i in theme.menu){ %>
     <a href="<%- url_for(theme.menu[i]) %>"><%= i %></a>
     <% } %>
+    <% if (theme.twitter){ %>
+    <a href="https://twitter.com/<%- theme.twitter %>">Twitter</a>
+    <% } %>
     <% if (theme.rss){ %>
     <a href="<%- theme.rss %>"><%= __('rss_feed') %></a>
     <% } %>
+
     <a href="#" class="js-search"><%= __('search') %></a>
   </nav>
 
