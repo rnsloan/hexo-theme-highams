@@ -3,7 +3,6 @@
 body {
     font: #{$font-medium}/#{$line-height} $font-sans;
     color: $color-text;
-    letter-spacing: 1px;
 }
 
 a,
@@ -33,7 +32,6 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 $spacing-small;
   font-family: $font-serif;
   font-weight: normal;
-  letter-spacing: 0;
   color: $color-black;
   a:hover,
   a:active {
