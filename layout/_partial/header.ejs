@@ -21,6 +21,10 @@
   </nav>
 
   <div role="search">
-    <%- search_form({button: 'Search'}) %>
+    <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
+      <input type="search" name="q" class="search-form-input" placeholder="Search" aria-label="Search">
+      <button type="submit" class="search-form-submit">Search</button>
+      <input type="hidden" name="sitesearch" value="https://blog.rnsloan.com">
+      </form>
   </div>
 </header>

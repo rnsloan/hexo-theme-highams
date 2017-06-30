@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <%
-var language = theme.language + "";
-if ((theme.language !== "default" && theme.language !== "")) {
-  language = theme.language
-} else {
-  language = "en"
+var language = "en"
+if (theme.language && theme.language !== "default") {
+  language =  theme.language
 }
 %>
 <html lang="<%= language %>">
